@@ -24,6 +24,7 @@ Angular.module(App, [
 
 new Loader(App)
   .load(ChatsCtrl)
+  .load(ChatCtrl)
   .load(CalendarFilter)
   .load(RoutesConfig);
 
